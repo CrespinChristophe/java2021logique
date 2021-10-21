@@ -1,0 +1,34 @@
+4.1	Validation d'entrée
+-----------------------
+
+Ecrire le programme qui limite le choix de l'utilisateur aux valeurs 0, 1, 2, 3, 4.
+
+Si la valeur est différente, un nouveau choix sera demandé.
+
+-------------------------------------------------------------------------------------------
+
+Solution
+--------
+
+Début Validation d'entrée
+
+Variables locales
+
+VAR entre : N<--0
+
+Fin variables locales
+
+afficher "Entrez 1 valeur comprise entre 0,1,2,3,4"
+saisir entre
+
+TANT QUE entre < 0 OU entre > 4
+
+afficher "Entrez 1 valeur comprise entre 0,1,2,3,4"
+saisir entre
+
+FIN TANT QUE
+
+afficher "Bravo"
+
+Fin Validation	d'entrée
+
